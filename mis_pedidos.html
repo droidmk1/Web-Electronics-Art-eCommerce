@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyect</title>
+    <link rel="stylesheet" href="scss/estilos.css">
+    <link rel="apple-touch-icon" href="https://plazavea.vteximg.com.br/arquivos/icon-pwa-512x512.png?v=636945836907500000" /><!-- /iOS Support --><!-- Icons --><link rel="icon" type="image/png" href="https://image.flaticon.com/icons/png/512/2584/2584687.png" sizes="32x32"/>
+</head>
+<body>
+    <!-- cabezera -->
+    <header>
+        <div class="logo"><img src="img/flojo.png" width="80" height="80" alt="Logo"></div>
+        <div class="buscador">
+            <form action="">
+                <div class="search">
+                    <input type="text" name="producto" placeholder=" ¿Qué producto deseas buscar?" autocomplete="off">
+                </div>
+                <button class="cont_lupa" type="submit">
+                    <img class="lupa" src="img/lupa.png" width="35" height="35" alt="">
+                </button>
+            </form>
+        </div>
+        <div class="op1"><a href="mis_pedidos.html"><img class="ic" src="img/abrir-caja.png" alt="img_pedidos" width="25" height="25"> Mis pedidos</a></div>
+        <div class="op2"><a href="login.html"><img class="ic" src="img/usuario.png" alt="img_usuario" width="25" height="25"> Mi cuenta</a></div>        
+    </header>
+    <!-- fin cabezera -->
+    <br>
+    <!-- boton volver a mi cuenta -->
+    <div class="atras" >
+            <button class="button2" type="submit">
+                <a href="perfil_user.html">< Volver a mi cuenta</a>
+            </button>
+    </div>
+    <!-- fin boton -->
+    <h1>
+        Mis pedidos
+    </h1>
+    <!-- Tab -->
+    <div id="box">
+        <ul id="menu">
+            <li><a href="#pedcurso">Pedidos en Curso</a></li>
+            <li><a href="#pedentregados">Pedidos Entregados</a></li>
+            <li><a href="#pedcancelados">Pedidos Cancelados</a></li>
+        </ul>
+        <!-- e tab menu -->
+        <ul id="boxes">
+            <li id="pedcurso" class="box">
+        <h1>Pedidos en Curso</h1>
+        <ul>
+            <li><a class="simple" href="#">No tienes pedidos en curso, ya entregamos todos</a></li>
+        </ul>
+        </li>
+            <li id="pedentregados" class="box">
+        <h2>Pedidos Entregados</h2>
+        <ul>
+            <li><a class="simple" href="#">Parece que no has realizado compras</a></li>
+        </ul>
+        </li>
+            <li id="pedcancelados" class="box">
+        <h3>Pedidos Cancelados</h3>
+        <ul>
+            <li><a class="simple" href="#">No tienes pedidos cancelados</a></li>
+        </ul>
+        </li>
+        </ul>
+    <!-- Fin Tab -->
+    <br>
+    <!-- footer -->
+    <footer>
+        <small>
+            ElectronicsArt
+            Copyright &copy; 2021 Cardenas - Farfan - Aviles.
+        </small>
+    </footer>
+    <!-- fin footer -->
+</body>
+</html>
